@@ -8,9 +8,9 @@ var estudiantes = {
 
    var myArray = [];
    function fromObjectToArray (estudiantes){
-      for(const prop in obj){
+      for(const prop in estudiantes){
         myArray.push('prop');
       }
-
+      return myArray;
     console.log(myArray);
   }
